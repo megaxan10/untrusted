@@ -41,7 +41,8 @@ function Game(debugMode, startLevel) {
     this._editableScripts = [
         'map.js',
         'objects.js',
-        'player.js'
+        'player.js',
+        'game.js'
     ];
 
     this._resetTimeout = null;
